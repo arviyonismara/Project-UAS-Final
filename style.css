@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,500;1,100&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+	background: linear-gradient(135deg, #888888, #fff, #b8b8b8, #888888);
+}
+
+.navbar-nav {
+	font-family: 'Dela Gothic One', cursive;
+}
+
+.carousel-item {
+	height: 35rem;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+}
+
+.tombol{
+	background-color: #212529;
+	font-weight: 100;
+	color: #ecf0f1;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.tombol:hover{
+	background-color: #212529;
+	font-weight: 100;
+	color: #ecf0f1;
+	text-align: center;
+	border-radius: 10px;
+	padding: 15px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.container1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: 170px;
+	padding-bottom: 100px;
+	font-family: 'Dela Gothic One', cursive;
+	color: white;
+}
+
+.col {
+	font-family: 'Dela Gothic One', cursive;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* Card */
+
+.card {
+	height: 420px;
+	transition: all 0.5s ease;
+	border-radius: 10px;
+}
+
+.card-img-top {
+	height: 250px;
+	width: auto;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cart_logo {
+    transition: all 0.25s ease;
+}
+.cart_logo:hover {
+    transform: scale(1.010);
+}
+.cart_img {
+    width: 80%;
+    /* width: 512px; */
+    height: auto;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+}
+
+.report{
+	background-color: rgb(215, 237, 238);
+	border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	text-align: center;
+	font-family: 'Dela Gothic One', cursive;
+	font-weight: 100;
+}
+
+.user-details .input-box input {
+	height: 45px;
+	width: 100%;
+	outline: none;
+	font-size: 16px;
+	border-radius: 5px;
+	padding-left: 15px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+	border-color: #727272;
+}
+/* about us */
+.about {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f1f1f1;
+}
+
+.about .about-selection {
+	background: url(img/pizza/bianchi.jpg) no-repeat left;
+	background-size: 65%;
+	background-color: cadetblue;
+	overflow: hidden;
+	padding: 100px o;
+}
+
+.about .about-selection .inner-container {
+	width: 55%;
+	float: right;
+	background-color: #fdfdfd;
+	padding: 150px;
+}
+
+.about .about-selection .inner-container h1 {
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.border {
+	height: 3px;
+	width: 100px;
+	background-color: rgb(215, 237, 238);
+}
+
+.text2 {
+	font-size: 15px;
+	color: rgb(43, 146, 150);
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+.readmore {
+	border: none;
+	padding: 8px 15px;
+	background-color: cadetblue;
+	color: #fff;
+}
+
+.readmore:hover {
+	text-decoration: underline;
+}
+
+/* footer */
+
+.footer {
+	background-color: #212529;
+	color: #ecf0f1;
+	font-family: 'Dela Gothic One', cursive;
+	text-align: center;
+	font-size: 10px;
+	padding: 10px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #707374;
+}
+
+.footer a:hover {
+	color: #ecf0f1;
+}
+
+.fa {
+	padding: 5px;
+}
+
+@media screen and (max-width:1200px) {
+	.about .about-selection .inner-container {
+		padding: 80px;
+	}
+}
+
+@media screen and (max-width:1000px) {
+	.about .about-selection {
+		background-size: 100%;
+		padding: 100px 40px;
+	}
+
+	.about .about-selection .inner-container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about .about-selection {
+		padding: 0;
+	}
+
+	.about .about-selection .inner-container {
+		padding: 60px;
+	}
+
+}
